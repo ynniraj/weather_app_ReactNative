@@ -4,7 +4,16 @@
     "web": {
       "bundler": "metro"
     },
-    "name": "demo-app",
-    "slug": "demo-app"
+    "name": "Weather-App",
+    "slug": "demo-app",
+    "icon": "./assests/img/cloud.png",
+    "android": {
+      "package": "com.anonymous.demoapp"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "302e9524-ad45-40bd-917b-cc15cfa40257"
+      }
+    }
   }
 }
